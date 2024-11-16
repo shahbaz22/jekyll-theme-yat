@@ -3,7 +3,7 @@ layout: articles
 heading: "Resonance"
 subheading: "Providing services in Data Science"
 banner:
-  video: assets/videos/trippy_waves.mp4
+  video: assets/videos/trippy_waves3.mp4
   loop: true
   opacity: 0.3
   height: "100vh"
