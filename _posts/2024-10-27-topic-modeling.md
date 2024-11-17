@@ -23,7 +23,7 @@ These challenges demand scalable, automated solutions that can efficiently ident
 By combining BERTopic, a robust topic modelling framework, with LLMs like GPT, it's possible to streamline the analysis process while preserving interpretability and accuracy. This approach transforms free-text responses into actionable insights and summary reports, significantly reducing the time and resources needed.
 
 <p style="text-align: center;">
-<img src="/assets/images/bertopic.png" alt="Crepe">
+<img src="{{ site.baseurl }}/assets/images/bertopic.png" alt="Crepe">
   <figcaption style="text-align: center;"> Figure showing all the modular sub-models as part of Bertopic.</figcaption>
 
 </p>
@@ -69,7 +69,7 @@ This setup allowed for efficient handling of the large BBC public consultation d
 
 
 <p style="text-align: center;">
-<img src="/assets/images/flow_chart_bert.webp" alt="Crepe">
+<img src="{{ site.baseurl }}/assets/images/flow_chart_bert.webp" alt="Crepe">
   <figcaption style="text-align: center;"> Workflow for Survey Data Analysis and Report Generation. At each stage different sub-models have been used for example UMAP and HDBSAN where sub-model parameters have been chosen to maximise the number of cluster while minimising noise. This is because we are also interested in unpopular opinions (small cluster/topics) in the analysis of our surveys.</figcaption>
 
 </p>
