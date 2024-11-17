@@ -16,7 +16,7 @@ The core of our approach revolved around an agent-based model, leveraging LLM ag
 We relied on Claude Opus from Anthropic for the LLM. The system functioned by integrating examples from two reference laws—focused on the regulation of sunbeds and smoking—to maximize diversity in our small sample. This technique, known as few-shot prompting, was key to ensuring the model understood the structure and tone of legal text.
 
 <p style="text-align: center;">
-<img src="/assets/images/gen_ai_pitch_model.png" alt="Crepe">
+<img src="{{ site.baseurl }}/assets/images/gen_ai_pitch_model.png" alt="Crepe">
   <figcaption style="text-align: center;">A workflow diagram illustrating the legislative drafting process. The system uses multiple AI agents working in parallel to transform an initial prompt into a finalised document, with opportunities for human review at each stage. The process includes a Section Coordinator agent that manages different workflows, with specialised agents handling drafting, formalising, and proof stages. While AI agents collaborate to refine and validate the legislative document, human experts can monitor and verify the outputs at each checkpoint before proceeding to the next stage, ensuring accuracy, compliance, and quality control. This human-in-the-loop approach combines AI efficiency with essential human oversight in the legislative drafting process.</figcaption>
 </p>
 
@@ -46,7 +46,7 @@ The same agent-based method was applied to generate explanatory notes, which are
 4. **Structured PDF output**: The output was structured in JSON and later converted into a formatted PDF document in the style of a piece of government legislation.
 
 <p style="text-align: center;">
-<img src="/assets/images/example_leg.svg" alt="Crepe">
+<img src="{{ site.baseurl }}/assets/images/example_leg.svg" alt="Crepe">
   <figcaption style="text-align: center;">An example piece of legislation created by this agent based model.</figcaption>
 </p>
 
