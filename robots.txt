@@ -1,0 +1,1 @@
+Sitemap: https://get-resonance.com/jekyll-theme-yat/sitemap.xml
